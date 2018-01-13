@@ -1,5 +1,7 @@
 # Reproducible Case For @std/esm + Couchbase Bug
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MaxMilton/reproduce-esm-bug.svg)](https://greenkeeper.io/)
+
 ## Overview
 
 Minimal code to reproduce `@std/esm` bug: `Error: Module did not self-register.`.
