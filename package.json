@@ -1,0 +1,20 @@
+{
+  "name": "reproduce-esm-bug",
+  "version": "1.0.0",
+  "description": "Reproducible case for @std/esm + couchbase-node bug",
+  "main": "index.js",
+  "repository": "https://github.com/MaxMilton/reproduce-esm-bug",
+  "author": "Max Milton <max@wearegenki.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "@std/esm": "^0.19.2",
+    "couchbase": "^2.4.3"
+  },
+  "engines": {
+    "node": ">= 9.3.0",
+    "npm": ">= 5.5.1"
+  }
+}
